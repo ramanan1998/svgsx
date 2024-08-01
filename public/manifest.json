@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "SVGSX",
+    "description": "A simple extension that converts SVG files into JSX functional components for both React and React Native developers",
+    "version": "1.0",
+    "icons": {
+      "32": "vite.svg"
+    },
+    "action": {
+      "default_popup": "index.html"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+  }
